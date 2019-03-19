@@ -5,3 +5,5 @@ The goal of the Bikini Bottom Clicky Game is to only click each Spongebob Square
 React.js was used to create this memory game.
 
 ![Bikini Bottom Clicky Game](screenshots/main_screenshot.png)
+
+To visit the deployed site, click [here](https://jenmaz12.github.io/clicky-game/).
