@@ -88,10 +88,14 @@ class App extends Component {
 
   render() {
     const { message, score, cards, topScore } = this.state;
+    const title = {
+      bb: 'Bikini Bottom',
+      clicky: 'Clicky Game',
+    };
     return (
       <Wrapper>
         <NavBar message={message} score={score} topScore={topScore} />
-        <Title>Clicky Game</Title>
+        <Title bb={title.bb} clicky={title.clicky} />
         <div className='container'>
           <div id='cards-row' className='row justify-content-center'>
             {cards.map(card => (
